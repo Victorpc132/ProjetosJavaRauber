@@ -13,14 +13,13 @@ public class ExSubRotinas2 {
         if(val1 == val2){
             return 0;
         }
-        else if (val1<val2) {
+        else if (val2>val1) {
             int val3;
             val3 = val1;
             val1=val2;
             val2 = val3;
-        cont = val2;
         }
-              
+              cont = val2;
         while(cont<=val1) {
             
             result = result + cont;
